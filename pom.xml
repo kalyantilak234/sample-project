@@ -115,6 +115,20 @@
 
 	</build>
 <distributionManagement>
-
-</distributionManagement>
-</project>
+<snapshotRepository>
+			<id>snapshots</id>
+			<name>snapshots</name>
+			
+			<url>http://52.10.254.104:8081/#browse/browse/components:maven-snapshots</url>
+		</snapshotRepository>
+			<repository>
+			<id>releases</id>
+			<name>releases</name>
+				
+			<url>http://52.10.254.104:8081/#browse/browse/components:maven-releases</url>
+		</repository>
+	
+	</distributionManagement>
+	</project>
+	
+	
