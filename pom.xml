@@ -116,7 +116,7 @@
 	</build>
 <distributionManagement>
 <snapshotRepository>
-			<id>snapshots</id>
+			<id>nexus-snapshots</id>
 			<name>snapshots</name>
 			
 			<url>http://54.71.184.175:8081/#browse/browse/components:maven-snapshots</url>
@@ -124,8 +124,7 @@
 			<repository>
 			<id>nexus-releases</id>
 			<name>releases</name>
-				
-			<url>http://54.71.184.175:8081/#browse/browse/components:maven-releases</url>
+				<url>http://54.71.184.175:8081/#browse/browse/components:maven-releases</url>
 		</repository>
 	
 	</distributionManagement>
