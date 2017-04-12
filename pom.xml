@@ -124,7 +124,7 @@
 			<repository>
 			<id>nexus-releases</id>
 			<name>releases</name>
-				<url>http://54.71.184.175:8081/repositorymaven-releases</url>
+				<url>http://54.71.184.175:8081/repository/maven-releases</url>
 		</repository>
 	
 	</distributionManagement>
